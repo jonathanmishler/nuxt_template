@@ -1,8 +1,5 @@
 import { wrapFunctional } from './utils'
 
-export { default as AppBar } from '../../components/AppBar.vue'
-export { default as Drawer } from '../../components/Drawer.vue'
-export { default as Footer } from '../../components/Footer.vue'
 export { default as Links } from '../../components/Links.vue'
 export { default as List } from '../../components/List.vue'
 export { default as ListGroup } from '../../components/ListGroup.vue'
@@ -17,6 +14,9 @@ export { default as ViewIntro } from '../../components/ViewIntro.vue'
 export { default as AppBtn } from '../../components/app/Btn.vue'
 export { default as AppCard } from '../../components/app/Card.vue'
 export { default as AppTabs } from '../../components/app/Tabs.vue'
+export { default as MainAppBar } from '../../components/main/AppBar.vue'
+export { default as MainFooter } from '../../components/main/Footer.vue'
+export { default as MainNavDrawer } from '../../components/main/NavDrawer.vue'
 export { default as WidgetsAccount } from '../../components/widgets/Account.vue'
 export { default as WidgetsAccountSettings } from '../../components/widgets/AccountSettings.vue'
 export { default as WidgetsDrawerHeader } from '../../components/widgets/DrawerHeader.vue'
@@ -25,9 +25,6 @@ export { default as WidgetsGoHome } from '../../components/widgets/GoHome.vue'
 export { default as WidgetsNotifications } from '../../components/widgets/Notifications.vue'
 export { default as WidgetsSearch } from '../../components/widgets/Search.vue'
 
-export const LazyAppBar = import('../../components/AppBar.vue' /* webpackChunkName: "components/app-bar" */).then(c => wrapFunctional(c.default || c))
-export const LazyDrawer = import('../../components/Drawer.vue' /* webpackChunkName: "components/drawer" */).then(c => wrapFunctional(c.default || c))
-export const LazyFooter = import('../../components/Footer.vue' /* webpackChunkName: "components/footer" */).then(c => wrapFunctional(c.default || c))
 export const LazyLinks = import('../../components/Links.vue' /* webpackChunkName: "components/links" */).then(c => wrapFunctional(c.default || c))
 export const LazyList = import('../../components/List.vue' /* webpackChunkName: "components/list" */).then(c => wrapFunctional(c.default || c))
 export const LazyListGroup = import('../../components/ListGroup.vue' /* webpackChunkName: "components/list-group" */).then(c => wrapFunctional(c.default || c))
@@ -42,6 +39,9 @@ export const LazyViewIntro = import('../../components/ViewIntro.vue' /* webpackC
 export const LazyAppBtn = import('../../components/app/Btn.vue' /* webpackChunkName: "components/app-btn" */).then(c => wrapFunctional(c.default || c))
 export const LazyAppCard = import('../../components/app/Card.vue' /* webpackChunkName: "components/app-card" */).then(c => wrapFunctional(c.default || c))
 export const LazyAppTabs = import('../../components/app/Tabs.vue' /* webpackChunkName: "components/app-tabs" */).then(c => wrapFunctional(c.default || c))
+export const LazyMainAppBar = import('../../components/main/AppBar.vue' /* webpackChunkName: "components/main-app-bar" */).then(c => wrapFunctional(c.default || c))
+export const LazyMainFooter = import('../../components/main/Footer.vue' /* webpackChunkName: "components/main-footer" */).then(c => wrapFunctional(c.default || c))
+export const LazyMainNavDrawer = import('../../components/main/NavDrawer.vue' /* webpackChunkName: "components/main-nav-drawer" */).then(c => wrapFunctional(c.default || c))
 export const LazyWidgetsAccount = import('../../components/widgets/Account.vue' /* webpackChunkName: "components/widgets-account" */).then(c => wrapFunctional(c.default || c))
 export const LazyWidgetsAccountSettings = import('../../components/widgets/AccountSettings.vue' /* webpackChunkName: "components/widgets-account-settings" */).then(c => wrapFunctional(c.default || c))
 export const LazyWidgetsDrawerHeader = import('../../components/widgets/DrawerHeader.vue' /* webpackChunkName: "components/widgets-drawer-header" */).then(c => wrapFunctional(c.default || c))

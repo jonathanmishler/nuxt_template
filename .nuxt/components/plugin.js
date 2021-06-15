@@ -2,9 +2,6 @@ import Vue from 'vue'
 import { wrapFunctional } from './utils'
 
 const components = {
-  AppBar: () => import('../../components/AppBar.vue' /* webpackChunkName: "components/app-bar" */).then(c => wrapFunctional(c.default || c)),
-  Drawer: () => import('../../components/Drawer.vue' /* webpackChunkName: "components/drawer" */).then(c => wrapFunctional(c.default || c)),
-  Footer: () => import('../../components/Footer.vue' /* webpackChunkName: "components/footer" */).then(c => wrapFunctional(c.default || c)),
   Links: () => import('../../components/Links.vue' /* webpackChunkName: "components/links" */).then(c => wrapFunctional(c.default || c)),
   List: () => import('../../components/List.vue' /* webpackChunkName: "components/list" */).then(c => wrapFunctional(c.default || c)),
   ListGroup: () => import('../../components/ListGroup.vue' /* webpackChunkName: "components/list-group" */).then(c => wrapFunctional(c.default || c)),
@@ -19,6 +16,9 @@ const components = {
   AppBtn: () => import('../../components/app/Btn.vue' /* webpackChunkName: "components/app-btn" */).then(c => wrapFunctional(c.default || c)),
   AppCard: () => import('../../components/app/Card.vue' /* webpackChunkName: "components/app-card" */).then(c => wrapFunctional(c.default || c)),
   AppTabs: () => import('../../components/app/Tabs.vue' /* webpackChunkName: "components/app-tabs" */).then(c => wrapFunctional(c.default || c)),
+  MainAppBar: () => import('../../components/main/AppBar.vue' /* webpackChunkName: "components/main-app-bar" */).then(c => wrapFunctional(c.default || c)),
+  MainFooter: () => import('../../components/main/Footer.vue' /* webpackChunkName: "components/main-footer" */).then(c => wrapFunctional(c.default || c)),
+  MainNavDrawer: () => import('../../components/main/NavDrawer.vue' /* webpackChunkName: "components/main-nav-drawer" */).then(c => wrapFunctional(c.default || c)),
   WidgetsAccount: () => import('../../components/widgets/Account.vue' /* webpackChunkName: "components/widgets-account" */).then(c => wrapFunctional(c.default || c)),
   WidgetsAccountSettings: () => import('../../components/widgets/AccountSettings.vue' /* webpackChunkName: "components/widgets-account-settings" */).then(c => wrapFunctional(c.default || c)),
   WidgetsDrawerHeader: () => import('../../components/widgets/DrawerHeader.vue' /* webpackChunkName: "components/widgets-drawer-header" */).then(c => wrapFunctional(c.default || c)),

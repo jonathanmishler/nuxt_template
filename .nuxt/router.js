@@ -4,14 +4,14 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _576ebe2e = () => interopDefault(import('../pages/error.vue' /* webpackChunkName: "pages/error" */))
-const _53adda3a = () => interopDefault(import('../pages/googleMaps.vue' /* webpackChunkName: "pages/googleMaps" */))
-const _69678620 = () => interopDefault(import('../pages/Icons.vue' /* webpackChunkName: "pages/Icons" */))
-const _f766b9e4 = () => interopDefault(import('../pages/notifications.vue' /* webpackChunkName: "pages/notifications" */))
-const _22686ec7 = () => interopDefault(import('../pages/regularTables.vue' /* webpackChunkName: "pages/regularTables" */))
-const _9098790e = () => interopDefault(import('../pages/typography.vue' /* webpackChunkName: "pages/typography" */))
-const _1a364bf8 = () => interopDefault(import('../pages/userProfile.vue' /* webpackChunkName: "pages/userProfile" */))
-const _13a89ff8 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _1b8b3226 = () => interopDefault(import('../pages/error.vue' /* webpackChunkName: "pages/error" */))
+const _b4d9bd7c = () => interopDefault(import('../pages/googleMaps.vue' /* webpackChunkName: "pages/googleMaps" */))
+const _2d83fa18 = () => interopDefault(import('../pages/Icons.vue' /* webpackChunkName: "pages/Icons" */))
+const _66dcc1f4 = () => interopDefault(import('../pages/notifications.vue' /* webpackChunkName: "pages/notifications" */))
+const _6aad6abf = () => interopDefault(import('../pages/regularTables.vue' /* webpackChunkName: "pages/regularTables" */))
+const _09990a81 = () => interopDefault(import('../pages/typography.vue' /* webpackChunkName: "pages/typography" */))
+const _44af1808 = () => interopDefault(import('../pages/userProfile.vue' /* webpackChunkName: "pages/userProfile" */))
+const _5075d820 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -26,35 +26,35 @@ export const routerOptions = {
 
   routes: [{
     path: "/error",
-    component: _576ebe2e,
+    component: _1b8b3226,
     name: "error"
   }, {
     path: "/googleMaps",
-    component: _53adda3a,
+    component: _b4d9bd7c,
     name: "googleMaps"
   }, {
     path: "/Icons",
-    component: _69678620,
+    component: _2d83fa18,
     name: "Icons"
   }, {
     path: "/notifications",
-    component: _f766b9e4,
+    component: _66dcc1f4,
     name: "notifications"
   }, {
     path: "/regularTables",
-    component: _22686ec7,
+    component: _6aad6abf,
     name: "regularTables"
   }, {
     path: "/typography",
-    component: _9098790e,
+    component: _09990a81,
     name: "typography"
   }, {
     path: "/userProfile",
-    component: _1a364bf8,
+    component: _44af1808,
     name: "userProfile"
   }, {
     path: "/",
-    component: _13a89ff8,
+    component: _5075d820,
     name: "index"
   }],
 

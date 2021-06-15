@@ -1,13 +1,4 @@
 {
-  "AppBar": {
-    "description": "Auto imported from components/AppBar.vue"
-  },
-  "Drawer": {
-    "description": "Auto imported from components/Drawer.vue"
-  },
-  "Footer": {
-    "description": "Auto imported from components/Footer.vue"
-  },
   "Links": {
     "description": "Auto imported from components/Links.vue"
   },
@@ -49,6 +40,15 @@
   },
   "AppTabs": {
     "description": "Auto imported from components/app/Tabs.vue"
+  },
+  "MainAppBar": {
+    "description": "Auto imported from components/main/AppBar.vue"
+  },
+  "MainFooter": {
+    "description": "Auto imported from components/main/Footer.vue"
+  },
+  "MainNavDrawer": {
+    "description": "Auto imported from components/main/NavDrawer.vue"
   },
   "WidgetsAccount": {
     "description": "Auto imported from components/widgets/Account.vue"

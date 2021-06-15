@@ -11,9 +11,7 @@ export default {
     '~/plugins/chartist.js'
   ],
   vuetify: {
-    optionsPath: '~plugins/vuetify.options.js',
-    customVariables: ['~/assets/variables.scss'],
-    treeShake: true
+    optionsPath: '~/plugins/vuetify.options.js'
   },
   webfontloader: {
     google: {

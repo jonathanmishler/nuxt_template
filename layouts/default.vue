@@ -1,8 +1,8 @@
 <template>
   <v-app>
-    <AppBar />
+    <MainAppBar />
 
-    <Drawer />
+    <MainNavDrawer />
 
       <v-main id="main-content">
         <v-container fluid>
@@ -10,7 +10,7 @@
         </v-container>
       </v-main>
 
-    <Footer />
+    <MainFooter />
 
     <Settings />
   </v-app>
