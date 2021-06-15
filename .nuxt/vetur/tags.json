@@ -1,0 +1,74 @@
+{
+  "AppBar": {
+    "description": "Auto imported from components/AppBar.vue"
+  },
+  "Drawer": {
+    "description": "Auto imported from components/Drawer.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "Links": {
+    "description": "Auto imported from components/Links.vue"
+  },
+  "List": {
+    "description": "Auto imported from components/List.vue"
+  },
+  "ListGroup": {
+    "description": "Auto imported from components/ListGroup.vue"
+  },
+  "ListItem": {
+    "description": "Auto imported from components/ListItem.vue"
+  },
+  "MaterialAlert": {
+    "description": "Auto imported from components/MaterialAlert.vue"
+  },
+  "MaterialCard": {
+    "description": "Auto imported from components/MaterialCard.vue"
+  },
+  "MaterialChartCard": {
+    "description": "Auto imported from components/MaterialChartCard.vue"
+  },
+  "MaterialSnackbar": {
+    "description": "Auto imported from components/MaterialSnackbar.vue"
+  },
+  "MaterialStatsCard": {
+    "description": "Auto imported from components/MaterialStatsCard.vue"
+  },
+  "Settings": {
+    "description": "Auto imported from components/Settings.vue"
+  },
+  "ViewIntro": {
+    "description": "Auto imported from components/ViewIntro.vue"
+  },
+  "AppBtn": {
+    "description": "Auto imported from components/app/Btn.vue"
+  },
+  "AppCard": {
+    "description": "Auto imported from components/app/Card.vue"
+  },
+  "AppTabs": {
+    "description": "Auto imported from components/app/Tabs.vue"
+  },
+  "WidgetsAccount": {
+    "description": "Auto imported from components/widgets/Account.vue"
+  },
+  "WidgetsAccountSettings": {
+    "description": "Auto imported from components/widgets/AccountSettings.vue"
+  },
+  "WidgetsDrawerHeader": {
+    "description": "Auto imported from components/widgets/DrawerHeader.vue"
+  },
+  "WidgetsDrawerToggle": {
+    "description": "Auto imported from components/widgets/DrawerToggle.vue"
+  },
+  "WidgetsGoHome": {
+    "description": "Auto imported from components/widgets/GoHome.vue"
+  },
+  "WidgetsNotifications": {
+    "description": "Auto imported from components/widgets/Notifications.vue"
+  },
+  "WidgetsSearch": {
+    "description": "Auto imported from components/widgets/Search.vue"
+  }
+}

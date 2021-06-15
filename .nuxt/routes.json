@@ -1,0 +1,58 @@
+[
+  {
+    "name": "error",
+    "path": "/error",
+    "component": "/home/jonathan/projects/nuxt_vuetify/pages/error.vue",
+    "chunkName": "pages/error",
+    "_name": "_576ebe2e"
+  },
+  {
+    "name": "googleMaps",
+    "path": "/googleMaps",
+    "component": "/home/jonathan/projects/nuxt_vuetify/pages/googleMaps.vue",
+    "chunkName": "pages/googleMaps",
+    "_name": "_53adda3a"
+  },
+  {
+    "name": "Icons",
+    "path": "/Icons",
+    "component": "/home/jonathan/projects/nuxt_vuetify/pages/Icons.vue",
+    "chunkName": "pages/Icons",
+    "_name": "_69678620"
+  },
+  {
+    "name": "notifications",
+    "path": "/notifications",
+    "component": "/home/jonathan/projects/nuxt_vuetify/pages/notifications.vue",
+    "chunkName": "pages/notifications",
+    "_name": "_f766b9e4"
+  },
+  {
+    "name": "regularTables",
+    "path": "/regularTables",
+    "component": "/home/jonathan/projects/nuxt_vuetify/pages/regularTables.vue",
+    "chunkName": "pages/regularTables",
+    "_name": "_22686ec7"
+  },
+  {
+    "name": "typography",
+    "path": "/typography",
+    "component": "/home/jonathan/projects/nuxt_vuetify/pages/typography.vue",
+    "chunkName": "pages/typography",
+    "_name": "_9098790e"
+  },
+  {
+    "name": "userProfile",
+    "path": "/userProfile",
+    "component": "/home/jonathan/projects/nuxt_vuetify/pages/userProfile.vue",
+    "chunkName": "pages/userProfile",
+    "_name": "_1a364bf8"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/jonathan/projects/nuxt_vuetify/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_13a89ff8"
+  }
+]
