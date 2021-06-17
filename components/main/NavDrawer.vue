@@ -61,6 +61,11 @@
             to: '/',
           },
           {
+            title: 'Quote',
+            icon: 'mdi-clipboard-outline',
+            to: '/quote',
+          },
+          {
             title: 'User Profile',
             icon: 'mdi-account',
             to: '/userProfile',
