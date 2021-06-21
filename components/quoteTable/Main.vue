@@ -1,12 +1,10 @@
 <template>
     <v-data-table
         :headers="columns"
-        :items="rows"
+        :items="rowData"
     >
       <template v-slot:item.pn="props">
-        <QuoteTableEditableCell
-          :value = "props.item.name"
-        />
+        <QuoteTableEditableCell :cellValue.sync="props.item.pn" />
       </template>
     </v-data-table>
 </template>
@@ -24,7 +22,7 @@
       ]
     }),
     props: {
-      rows: {
+      rowData: {
         type: Array,
         default: () => ([]),
       },

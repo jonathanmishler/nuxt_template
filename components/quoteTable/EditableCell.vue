@@ -1,11 +1,11 @@
 <template>
     <v-edit-dialog
-      :return-value.sync="value"
+      :return-value.sync="cellValue"
     >
-      Click to Edit:{{ value }}
+      Click to Edit:{{ cellValue }}
       <template v-slot:input>
         <v-text-field
-          v-model="value"
+          v-model="cellValue"
           single-line
         >
         </v-text-field>
@@ -17,7 +17,7 @@
   export default {
     //data: () => ({}),
     props: {
-      value: {
+      cellValue: {
         type: String,
         default: () => '',
       },
